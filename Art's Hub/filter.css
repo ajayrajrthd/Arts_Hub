@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+} 
+
+img{
+    width: auto;
+    height: 630px;
+    margin: auto;
+    display: block;
+    border: 20px;
+}
+.change{
+    display: inline;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+    border-color: black;
+    border-radius: 10px;
+}
+button:hover{
+    background: grey;
+    color: azure;
+    box-shadow: 10px 5px 5px black;
+    transition-duration: 0.5s;
+}
+#display-image{
+    width: auto;
+    height: 600px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+  }

@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgimage{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bgimage img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.bgimage p{
+    position: fixed;
+    width: 92%;
+    height: 86%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    background-color: rgb(221, 248, 248);
+    opacity: 0.8;
+}
+.bgimage pre{
+    position: fixed;
+    font-size: 75px; 
+    font-family: 'Princess Sofia', cursive;
+    color: rgb(107, 13, 13);
+    margin-left: 650px;
+    margin-top: 100px;   
+} 
+
+.content pre{
+    position: fixed;
+    font-size: 27px;
+    top: 240px;
+    left: 500px;
+}
+.content img{
+    position: fixed;
+    width: 25%;
+    height: auto;
+    top: 188px;
+    left: 65px;
+}
+.follow ul{
+    position: fixed;
+    display: flex;
+    justify-content: space-around space-around;
+    top: 100px;
+    left: 200px;
+}
+.follow ul li{
+    display:inline;
+    margin-right: 30px;
+    
+}
+.follow ul img{
+    width: 30px;
+    height: auto;
+}
+
+.follow ul li .insta img:hover{
+    width: 40px;
+    margin-right: -10px;
+}
+.follow ul li .twitter img:hover{
+    width: 40px;
+    margin-left: -10px;
+    
+}
+.follow ul li .facebook img:hover{
+    width: 40px;
+    margin-left: -10px;
+}
+.follow marquee{
+    position: fixed;
+    background-color: black;
+    top: 170px;
+    left: 54px;
+    width: 54%;
+    height: 3px;
+}
+.follow pre{
+    position: fixed;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(92, 157, 196);
+    top: 104px;
+    left: 77px;
+}
+.button{
+    position: absolute;
+    border: none;
+    top: 400px;
+    left: 650px;
+    color: rgb(255, 255, 255);
+    padding: 50px 200px;
+    text-align: center;
+    text-decoration: none;
+    text-size-adjust: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.button1{
+    background-color: rgba(134, 192, 207, 0.712);
+    color: rgb(255, 255, 255);
+    border: 0px solid #ffffff;
+    border-radius: 50px;
+    
+}
+.button1 p{
+    font-size: 50px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    
+}
+.button1:hover {
+    background-color: rgb(134, 192, 207);
+    color: rgb(0, 0, 0);
+  }
